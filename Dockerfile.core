@@ -1,0 +1,4 @@
+FROM alpine
+COPY ./bin/core-service /core-service
+EXPOSE 80
+ENTRYPOINT ["/core-service"]

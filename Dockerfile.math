@@ -1,0 +1,4 @@
+FROM alpine
+COPY ./bin/math-service /math-service
+EXPOSE 80
+ENTRYPOINT ["/math-service"]
